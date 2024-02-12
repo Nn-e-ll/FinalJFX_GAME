@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="830.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.finalprojectjfx_game.LeaderBoardController">
+   <children>
+      <Button fx:id="BackMainMenuOneID" layoutX="50.0" layoutY="649.0" mnemonicParsing="false" onAction="#BackMainMenuOne" prefHeight="40.0" prefWidth="301.0" text="Вернуться в меню" />
+      <TableView fx:id="Table0" layoutX="19.0" layoutY="14.0" onSort="#LeaderBoardTable" prefHeight="610.0" prefWidth="361.0" />
+   </children>
+</Pane>
